@@ -1,0 +1,88 @@
+.log-container {
+  display: flex;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  max-width: 800px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  color: white;
+  margin: 10px;
+  
+}
+
+.log-element {
+  border: 2px solid white;
+  margin: 30px;
+  font-size: 40px;
+  background-color: rgba(255, 255, 255, 0.2);;
+  overflow: hidden;
+
+}
+
+.log-element input[type="text"],
+.log-element input[type="password"] {
+  padding: 5px;
+  border: 2px solid white;
+  background-color: rgba(255, 255, 255, 0.2);
+
+
+}
+
+.log-element a {
+  padding: 5px;
+}
+
+.new-mash {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-table {
+  display: flex;
+  border: 2px solid black;
+  padding: 10px;
+  max-width: 900px;
+  text-align: center;
+  background-color: white;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.td {
+  padding: 30px;
+  font-size: 40px;
+}
+
+.tr {
+  padding: 30px;
+  font-size: 40px;
+}
+
+.button_container button[type="submit"],
+.button_container button[type="button"] {
+  border: 2px solid white; /* Added white border */
+  color: white;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 5px 10px;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 20px;
+  flex-grow: 1;
+
+}
+.button_container {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.button_container button {
+  margin: 0 10px;
+}

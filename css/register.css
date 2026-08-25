@@ -1,0 +1,85 @@
+.log-container {
+    display: flex;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    max-width: 800px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    justify-content: center; /* Align horizontally to the center */
+    align-items: center; /* Align vertically to the center */
+  }
+
+  .log-container table {
+    width: 100%;
+    padding-bottom: 20px;
+    border: 2px solid white;
+  }
+
+  .log-container td:first-child {
+    font-size: 30px;
+    white-space: nowrap;
+    border: 2px solid white;
+  }
+  
+  @media (max-width: 768px) {
+    .log-container td:first-child {
+      font-size: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .log-container td:first-child {
+      font-size: 15px;
+    }
+  }
+
+  .log-container td:last-child {
+    width: 99%;
+    border: 2px solid white;
+  }
+
+  .log-container input[type="email"],
+.log-container input[type="text"],
+.log-container input[type="password"],
+.log-container input[type="registerPassword"] {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  font-size: 40px;
+}
+
+@media (max-width: 768px) {
+  .log-container input[type="email"],
+  .log-container input[type="text"],
+  .log-container input[type="password"],
+  .log-container input[type="registerPassword"] {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .log-container input[type="email"],
+  .log-container input[type="text"],
+  .log-container input[type="password"],
+  .log-container input[type="registerPassword"] {
+    font-size: 20px;
+  }
+}
+  .log-container input[type="submit"] {
+    border: 2px solid white; /* Added white border */
+  color: white;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-size: 20px;
+  cursor: pointer;
+  margin: 20px;
+  flex-grow: 1;
+  padding: 10px 40px; /* Increased padding to make the button bigger */
+  font-size: 24px; /* Increased font size */
+  }

@@ -1,0 +1,87 @@
+#parent {
+    width: 300px;
+    height: 400px;
+}
+
+#cover {
+    height: auto;
+    width: 100%;
+    object-fit: contain;
+}
+
+#cover-img {
+    height: auto;
+    width: 100%;
+}
+
+#audio-player {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: #8a99de;
+    background-image: url("cosmicbg.jpg");
+    margin-right: -50px;
+}
+
+#player-controls {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#play-pause-btn {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+}
+
+#play-pause-btn i {
+    display: inline-block;
+    margin-left: 3px;
+}
+
+#timeline {
+    width: 100%;
+    height: 3px;
+    margin: 0 10px;
+    background-color: #eee;
+    position: relative;
+    cursor: pointer;
+}
+
+#playhead {
+    width: 10px;
+    height: 10px;
+    background-color: #333;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+}
+
+#time {
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+#current-time {
+    margin-right: 5px;
+}
+
+#duration {
+    margin-left: 5px;
+}
+
+#audio {
+    display: none;
+}
